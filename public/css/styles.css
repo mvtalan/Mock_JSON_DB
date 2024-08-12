@@ -69,10 +69,10 @@ button[type="submit"]:hover {
     border-radius: 25px;
 }
 
-form:nth-child(2) {
+/* form:nth-child(2) {
     position: absolute;
     top: 2%;
     right: 5%;
     box-shadow: none !important;
     border: none !important;
-}
+} */
