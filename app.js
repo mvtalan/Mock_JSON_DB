@@ -6,6 +6,9 @@ require('dotenv').config();
 const app = express();
 const PORT = process.env.PORT || 3000;
 
+app.use(express.urlencoded({ extended: true })); // For form submissions
+app.use(express.json()); // For JSON bodies
+
 app.set('view engine', 'ejs');
 app.set('views', './views');
 

@@ -1,16 +1,22 @@
 {
-    "users" : [
-        {
-            "id": 1,
-            "username": "User1",
-            "first_name": "Jim",
-            "email": "jim@gmail.com"
-        },
-        {
-            "id": 2,
-            "username": "User2",
-            "first_name": "Michael",
-            "email": "michael@gmail.com"
-        }
-    ]
+  "users": [
+    {
+      "id": 1,
+      "username": "User1",
+      "first_name": "Jim",
+      "email": "jim@gmail.com"
+    },
+    {
+      "id": 2,
+      "username": "User2",
+      "first_name": "Michael",
+      "email": "michael@gmail.com"
+    },
+    {
+      "id": 3,
+      "userName": "User3",
+      "first_name": "Dwight",
+      "email": "dwight@gmail.com"
+    }
+  ]
 }
