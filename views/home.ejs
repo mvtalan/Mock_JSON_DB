@@ -11,6 +11,7 @@
             <div class="logo_container">
                 <img class="image" src="/images/rdp_logo.png" alt="">
                 <h3>Mock JSON Database CRUD Operations</h3>
+                <%= data %>
             </div>
         </div>
 
@@ -49,7 +50,7 @@
                 <button type="submit" onclick="updateUser()">Update User</button>
             </form>
 
-            <form id="deletUserForm" method="POST" action="/users/:id/delete">
+            <form id="deleteUserForm" method="POST" action="/users/:id/delete">
                 <h4>Delete (DELETE or POST method) </h4>
                 <input type="number" id="delete_id" name="id" placeholder="User ID" required>
                 <button type="submit" onclick="deleteUser()"> Delete User</button>
